@@ -10,3 +10,20 @@
   left: 25%;
   transform: translateX(-20%);
 }
+
+.avatar.skills {
+  height: 190vh;
+  bottom: -150vh;
+  left: 8rem;
+  transform: translateX(0%) scaleX(-1);
+}
+
+@media (max-width: 1100px) {
+  .avatar.skills {
+    z-index: -5;
+    height: 95vh;
+    bottom: -15vh;
+  }
+}
+
+
