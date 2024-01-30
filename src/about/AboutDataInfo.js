@@ -5,7 +5,10 @@ const subheadingsData = {
       content: (
         <>
           <p>
-          I am a highly motivated and personable Junior Full Stack Developer with a strong skill set. My passion for technology drives my eagerness to contribute to innovative projects within a collaborative environment.
+            I am a highly motivated and personable Junior Full Stack Developer
+            with a strong skill set. My passion for technology drives my
+            eagerness to contribute to innovative projects within a
+            collaborative environment.
           </p>
         </>
       ),
@@ -17,55 +20,36 @@ const subheadingsData = {
       content: (
         <>
           <p>
-            
-Epicodus Jan 2023 - Dec 2023
-<p>Computer Software Engineer
-bootcamp full stack frontend and backend web development including.
-</p> 
-HTML, Javascript, CSS, Bootstrap, C#, SQL and React. Coding is performed by working in class with a different pair every day and solo projects on Fridays.
-          </p>
-        </>
-      ),
-    },
-    {
-      title: "Graduate",
-      content: (
-        <>
-          <p>
-            Epicodus graduate.
+            Epicodus Jan 2023 - Dec 2023
+            <p>
+              Computer Software Engineer bootcamp full stack frontend and
+              backend web development including.
+            </p>
+            HTML, Javascript, CSS, Bootstrap, C#, SQL and React. Coding is
+            performed by working in class with a different pair every day and
+            solo projects on Fridays.
           </p>
         </>
       ),
     },
   ],
+
   3: [
     {
-      title: "Student",
+      title: "Graduate",
       content: (
         <>
-          <p>
-            Student
-          </p>
+          <p>Epicodus graduate.</p>
         </>
       ),
     },
+  ],
+  4: [
     {
       title: "Constructor",
       content: (
         <>
-          <p>
-            constructor
-          </p>
-        </>
-      ),
-    },
-    {
-      title: "labor",
-      content: (
-        <>
-          <p>
-            Labor
-          </p>
+          <p>constructor</p>
         </>
       ),
     },
