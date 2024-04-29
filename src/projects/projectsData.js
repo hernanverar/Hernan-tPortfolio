@@ -2,14 +2,14 @@ import projectOne from "../assets/coxala.png";
 import projectTwo from "../assets/cabin.jpeg";
 import projectThree from "../assets/MrRobogerpic.png";
 
-const projects = {
+const Projects = {
   1: {
     title: "Hernan Portfolio Projects",
     image: projectOne,
     description: (
       <>
         <p>
-        This simple Ecommerce application serves as a convenient tool for keeping track of items, whether they are being sold or purchased. It provides an organized system to monitor transactions and manage inventory.
+        Simple Ecommerce application serves as a convenient tool for keeping track of items, whether they are being sold or purchased. It provides an organized system to monitor transactions and manage inventory.
         </p>
       </>
     ),
@@ -37,7 +37,8 @@ const projects = {
     description: (
       <>
         <p>
-        Simple app that creates arrays on certain numbers, to rerturn back expected outputs of sounds depending on what numbers have been entered.
+        
+Introducing the Mr. Robogers Application, a solution designed to facilitate the seamless generation of arrays based on specific numerical inputs. This application harnesses advanced algorithms to meticulously construct arrays and deliver anticipated outputs corresponding to the entered numbers. Experience unparalleled precision and efficiency in sound generation with the Mr. Robogers App.
   
         </p>
       </>
@@ -47,4 +48,4 @@ const projects = {
     },
 };
 
-export default projects;
+export default Projects;
