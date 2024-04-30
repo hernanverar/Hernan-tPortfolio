@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import classNames from "classnames";
-import ProjectsData from "./ProjectsData";
+import ProjectsData from "./ProjectsData.js";
 import "../styles/projectsMenu.css";
 
 export default class ProjectsMenu extends Component {
