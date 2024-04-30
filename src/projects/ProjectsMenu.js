@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import classNames from "classnames";
-import Projects from "./ProjectsData";
+import ProjectsData from "./ProjectsData";
 import "../styles/projectsMenu.css";
 
 export default class ProjectsMenu extends Component {
@@ -55,7 +55,7 @@ export default class ProjectsMenu extends Component {
           ))}
         </div>
         <div className="project-sub-container">
-          {this.renderContent([Projects[activeProject]])}
+          {this.renderContent([ProjectsData[activeProject]])}
         </div>
       </div>
     );
